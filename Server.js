@@ -9,7 +9,7 @@ const API_KEY = "940d1438a9c7418cbce23e208dea12de"; // Replace with your actual 
 
 app.get("/news", async (req, res) => {
     try {
-        const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&category=general&pageSize=12&apiKey=${API_KEY}`);
+        const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&category=general&pageSize=12&apiKey=940d1438a9c7418cbce23e208dea12de`);
         const data = await response.json();
         res.json(data);
     } catch (error) {
