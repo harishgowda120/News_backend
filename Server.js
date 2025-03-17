@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 dotenv.config(); // Load .env variables
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 const API_KEY = "940d1438a9c7418cbce23e208dea12de"; // Load API key from .env
 
 app.use(cors());
